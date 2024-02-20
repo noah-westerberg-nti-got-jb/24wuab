@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background: rgb(16, 9, 32);
+}
+
+#Wrapper{
+    display: grid;
+
+    height: 1200px; /* temp */
+
+    grid-template-rows: 100px 1fr 250px;
+}
+
+header, footer{
+    background: #2E224C;
+}
+
+header{
+    display: grid;
+
+    grid-template-columns: 1fr 200px;
+
+    
+}
+
+nav{
+    display: flex
+}

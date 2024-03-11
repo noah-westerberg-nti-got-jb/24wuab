@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<style>
+.c {
+    stroke:#373737;
+}
+.c, .d {
+    stroke-width:2px;
+}
+.c, .d, .e {
+    fill:none;
+    stroke-miterlimit:10;
+}
+.d {
+    stroke:#4b4b4b;
+}
+.e {
+    stroke:#696969;
+    stroke-width:6px;
+}
+</style>
+</defs>
+<g id="a">
+<rect x="0" y="0" width="100" height="100"/>
+</g>
+<g id="b">
+<polygon class="d" points="22 22 22 80 80 80 80 22 22 22"/>
+<line class="c" x1="80" y1="50" x2="100" y2="50"/>
+<line class="c" x1="50" y1="22" x2="50" y2="0"/>
+<line class="c" x1="22" y1="50" x2="0" y2="50"/>
+<line class="c" x1="50" y1="80" x2="50" y2="100"/>
+<line class="e" x1="0" y1="0" x2="100" y2="100"/>
+<line class="e" x1="0" y1="100" x2="100" y2="0"/>
+</g>
+</svg>

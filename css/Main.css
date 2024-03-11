@@ -1,49 +1,51 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 
-    background-image: url(../img/WebUtv-slutproject-backrund.svg);
-    background-size: 20px;
-    background-repeat: repeat;
+  background-image: url(../img/WebUtv-slutproject-backrund-inverted.svg);
+  background-size: 20px;
+  background-repeat: repeat;
 }
 
-#Wrapper{
-    display: grid;
+#Wrapper {
+  display: grid;
 
-    height: 1200px; /* temp */
+  height: 1200px; /* temp */
 
-    grid-template-rows: 100px 1fr 150px;
+  grid-template-rows: 100px 1fr 150px;
 }
 
-header, footer{
-    background: #2E224C;
+header,
+footer {
+  background: #2e224c;
 }
 
-nav{
-    height: 100%;
-    
-    display: grid;
+nav {
+  height: 100%;
 
-    grid-template-columns: 1fr 200px; 
+  display: grid;
+
+  grid-template-columns: 1fr 200px;
 }
 
-#nav-section-1{
-    display: flex
+#nav-section-1 {
+  display: flex;
 }
 
-main{
-    background: rgba(26, 20, 52, 0.9);
+main {
+  background: rgba(26, 20, 52, 0.9);
 
-    display: flex;
+  display: flex;
 
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.showcase-item{
-    height: 300px;
+.showcase-item {
+  height: 300px;
 }
 
-.showcase-item-img, .showcase-item-text{
-    border-radius: 100%;
+.showcase-item-img,
+.showcase-item-text {
+  border-radius: 100%;
 }

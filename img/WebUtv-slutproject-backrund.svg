@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<style>
+.b{stroke:#969696;stroke-width:8px;}.b,.c{fill:none;stroke-miterlimit:10;}
+.c{stroke:#b4b4b4;stroke-width:2px;}
+</style>
+</defs>
+<polygon class="c" points="24.18 24.18 24.18 81.1 81.1 81.1 81.67 24.18 24.18 24.18"/>
+<line class="b" x1="0" y1="0" x2="100" y2="100"/>
+<line class="b" x1="0" y1="100" x2="100" y2="0"/>
+</svg>

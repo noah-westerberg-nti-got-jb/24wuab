@@ -2,7 +2,9 @@ body{
     margin: 0;
     padding: 0;
 
-    background: rgb(16, 9, 32);
+    background-image: url(../img/WebUtv-slutproject-backrund.svg);
+    background-size: 20px;
+    background-repeat: repeat;
 }
 
 #Wrapper{
@@ -10,21 +12,38 @@ body{
 
     height: 1200px; /* temp */
 
-    grid-template-rows: 100px 1fr 250px;
+    grid-template-rows: 100px 1fr 150px;
 }
 
 header, footer{
     background: #2E224C;
 }
 
-header{
+nav{
+    height: 100%;
+    
     display: grid;
 
-    grid-template-columns: 1fr 200px;
-
-    
+    grid-template-columns: 1fr 200px; 
 }
 
-nav{
+#nav-section-1{
     display: flex
+}
+
+main{
+    background: rgba(26, 20, 52, 0.9);
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-item{
+    height: 300px;
+}
+
+.showcase-item-img, .showcase-item-text{
+    border-radius: 100%;
 }

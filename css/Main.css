@@ -3,21 +3,19 @@ body {
   padding: 0;
 
   background-image: url(../img/WebUtv-slutproject-backrund-inverted.svg);
-  background-size: 20px;
+  background-size: 2.5vh;
   background-repeat: repeat;
 }
 
 #Wrapper {
   display: grid;
 
-  height: 1200px; /* temp */
-
   grid-template-rows: 100px 1fr 150px;
 }
 
 header,
 footer {
-  background: #2e224c;
+  background: rgb(12, 11, 31);
 }
 
 nav {
@@ -33,19 +31,12 @@ nav {
 }
 
 main {
+  padding: 50px;
+
   background: rgba(26, 20, 52, 0.9);
 
   display: flex;
 
   flex-direction: column;
   align-items: center;
-}
-
-.showcase-item {
-  height: 300px;
-}
-
-.showcase-item-img,
-.showcase-item-text {
-  border-radius: 100%;
 }

@@ -26,8 +26,38 @@ nav {
   grid-template-columns: 1fr 200px;
 }
 
+nav :hover {
+  text-decoration: none;
+}
+
+nav a {
+  width: 100%;
+  height: 100%;
+}
+
 #nav-section-1 {
+  display: grid;
+
+  grid-template-columns: 120px 120px auto;
+
+  align-items: center;
+}
+
+.nav-item {
+  width: 100%;
+  height: 100%;
+
   display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(243, 244, 224);
+}
+
+.nav-item:hover {
+  color: rgb(12, 11, 31);
+  background-color: rgba(243, 244, 224);
 }
 
 main {

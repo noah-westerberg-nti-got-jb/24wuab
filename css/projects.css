@@ -1,3 +1,51 @@
 main {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  padding: 50px;
+}
+
+#projects {
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 5px 10vh;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  height: 647px;
+
+  background: rgb(20, 27, 32);
+
+  border: 1px solid black;
+}
+
+#projects article.reverse {
+  flex-direction: column-reverse;
+}
+
+#projects section.project-text-container {
+  padding: 3%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects section.project-text-container p {
+  margin: 0px 10%;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+
+  background: rgba(0, 0, 0, 0.4);
 }

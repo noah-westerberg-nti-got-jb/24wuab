@@ -41,6 +41,9 @@ nav :hover {
 nav a {
   width: 100%;
   height: 100%;
+}
+
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -79,4 +82,19 @@ main {
 img {
   min-width: 100%;
   min-height: 100%;
+}
+
+#project-menu {
+  display: none;
+
+  width: 120px;
+
+  align-items: center;
+
+  position: absolute;
+
+  top: 100px;
+  left: 120px;
+
+  background: black;
 }

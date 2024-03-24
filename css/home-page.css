@@ -51,6 +51,12 @@ main {
   width: 85%;
   height: 85%;
   background: rgb(47, 50, 0);
+
+  overflow: hidden;
+}
+
+img {
+  border-radius: 100%;
 }
 
 .showcase-item-text {

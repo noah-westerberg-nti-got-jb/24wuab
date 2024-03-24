@@ -22,7 +22,7 @@ main {
   width: 400px;
   height: 647px;
 
-  background: rgb(20, 27, 32);
+  background: rgb(12, 11, 31);
 
   border: 1px solid black;
 }
@@ -41,6 +41,13 @@ main {
 
 #projects section.project-text-container p {
   margin: 0px 10%;
+}
+
+.project-container a {
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
 }
 
 .img-container {

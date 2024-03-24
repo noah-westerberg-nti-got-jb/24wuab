@@ -1,0 +1,20 @@
+main {
+  height: 1500px;
+}
+
+aside,
+footer {
+  position: sticky;
+  background: rgb(12, 11, 31);
+}
+
+footer {
+  height: 250px;
+  top: 0px;
+}
+
+aside {
+  height: 100vh;
+  width: 350px;
+  top: 0px;
+}

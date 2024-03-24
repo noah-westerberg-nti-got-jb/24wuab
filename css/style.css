@@ -6,6 +6,8 @@
 }
 
 body {
+  width: 100%;
+
   margin: 0;
   padding: 0;
 
@@ -23,6 +25,13 @@ body {
 header,
 footer {
   background: rgb(12, 11, 31);
+}
+
+header {
+  position: sticky;
+  top: 0px;
+
+  z-index: 10;
 }
 
 nav {
@@ -109,4 +118,30 @@ img:hover {
   left: 120px;
 
   background: black;
+}
+
+.header-button {
+  display: inline;
+
+  margin: 20px;
+
+  font-size: 0.5rem;
+
+  z-index: 15;
+
+  position: fixed;
+
+  height: 25px;
+  width: 25px;
+
+  cursor: pointer;
+}
+
+body.hide-header {
+  top: -100px;
+  position: absolute;
+}
+
+header.hide-header {
+  position: relative;
 }

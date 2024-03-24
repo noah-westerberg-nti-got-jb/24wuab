@@ -19,8 +19,8 @@ main {
   display: flex;
   flex-direction: column;
 
-  width: 400px;
-  height: 647px;
+  width: 30vw;
+  height: 48vw;
 
   background: rgb(12, 11, 31);
 

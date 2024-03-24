@@ -29,8 +29,8 @@ main {
 .showcase-item {
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 400px;
-  width: 800px;
+  height: 30vw;
+  width: 60vw;
   margin: top 20px;
 }
 
@@ -45,6 +45,8 @@ main {
   width: 150%;
   height: 71%;
   background: rgb(255, 234, 0);
+
+  overflow: auto;
 }
 
 .showcase-item-img-container {

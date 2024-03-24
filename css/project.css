@@ -7,12 +7,52 @@ main {
 }
 
 main,
-main * {
+main section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-main article {
-  margin: 0px 20%;
+main section section article {
+  max-width: 800px;
+}
+
+main section {
+  padding: 0 2%;
+}
+
+main section section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+main section section article {
+  display: block;
+}
+
+section {
+  margin: 10px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+main section article section img {
+  width: 650px;
+  height: 400px;
+
+  transform: translate(-50%, 0);
+
+  object-fit: cover;
+}
+
+main section article section img:hover {
+  width: 650px;
+  height: 400px;
+}
+
+main section section article section p {
+  font-size: medium;
 }

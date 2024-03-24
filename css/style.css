@@ -1,5 +1,8 @@
 * {
   color: rgb(243, 244, 224);
+
+  transition-duration: 0.2s;
+  transition-property: all;
 }
 
 body {
@@ -85,7 +88,12 @@ img {
 
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img:hover {
+  height: 120%;
 }
 
 #project-menu {

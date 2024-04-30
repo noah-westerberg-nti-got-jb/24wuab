@@ -1,5 +1,5 @@
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 main {
@@ -14,7 +14,7 @@ main section {
 }
 
 main section section article {
-  max-width: 50vw;
+  max-width: 80vw;
 }
 
 main section {
@@ -23,7 +23,7 @@ main section {
 
 main section section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -35,24 +35,71 @@ section {
   margin: 10px;
 }
 
+nav section {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 h3 {
-  margin-top: 50px;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+main section article section {
+  align-items: baseline;
 }
 
 main section article section img {
-  width: 35vw;
-  height: 21vw;
+  width: 50vw;
+  height: 30vw;
 
   transform: translate(-50%, 0);
 
   object-fit: cover;
 }
 
-main section article section img:hover {
-  width: 35vw;
-  height: 21vw;
+main section section article section p {
+  font-size: 0.7rem;
 }
 
-main section section article section p {
-  font-size: medium;
+@media screen and (min-width: 768px) {
+  main section section article {
+    max-width: 70vw;
+  }
+
+  main section section {
+    flex-direction: row;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+
+  main section article section img {
+    width: 35vw;
+    height: 21vw;
+  }
+
+  main section article section img:hover {
+    width: 35.7vw;
+    height: 21.5vw;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  main section section article {
+    max-width: 50vw;
+  }
 }

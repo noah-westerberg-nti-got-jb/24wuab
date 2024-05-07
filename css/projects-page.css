@@ -56,3 +56,70 @@ main {
 
   background: rgba(0, 0, 0, 0.4);
 }
+
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 0.3rem;
+  }
+
+  h2 {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 400px) {
+  p {
+    font-size: 0.5rem;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+  p {
+    font-size: 0.7rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .project-container {
+    width: 45vw;
+    height: 72vw;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}

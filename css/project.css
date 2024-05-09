@@ -61,6 +61,11 @@ main section article section img {
   object-fit: cover;
 }
 
+main section article section img:hover {
+  width: 50vw;
+  height: 30vw;
+}
+
 main section section article section p {
   font-size: 0.7rem;
 }
@@ -93,8 +98,8 @@ main section section article section p {
   }
 
   main section article section img:hover {
-    width: 35.7vw;
-    height: 21.5vw;
+    width: 35vw;
+    height: 21vw;
   }
 }
 

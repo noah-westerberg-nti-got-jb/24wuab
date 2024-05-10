@@ -157,3 +157,12 @@ body.hide-header {
 header.hide-header {
   position: relative;
 }
+
+span.material-symbols-outlined {
+  font-size: 3rem;
+}
+
+span.material-symbols-outlined:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}

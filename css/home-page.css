@@ -6,7 +6,7 @@ main {
 #project-showcase {
   padding: 50px;
 
-  border-bottom: 35px rgba(0, 0, 0, 0.75) solid;
+  border-bottom: 35px rgb(12, 11, 31) solid;
 }
 
 #project-showcase h2 {

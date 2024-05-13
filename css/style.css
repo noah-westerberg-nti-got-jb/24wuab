@@ -50,12 +50,12 @@ nav {
 
   display: grid;
 
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: auto 120px;
 }
 
 h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 nav :hover {
@@ -75,7 +75,7 @@ a {
 #nav-section-1 {
   display: grid;
 
-  grid-template-columns: 120px 120px 1fr;
+  grid-template-columns: 70px 70px auto;
 
   align-items: center;
 }
@@ -165,4 +165,18 @@ span.material-symbols-outlined {
 span.material-symbols-outlined:hover {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    grid-template-columns: auto 160px;
+  }
+
+  #nav-section-1 {
+    grid-template-columns: 120px 120px auto;
+  }
 }

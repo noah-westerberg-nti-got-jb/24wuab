@@ -16,12 +16,14 @@ h3 {
 
 ul {
   border-left: solid rgba(243, 244, 224) 10px;
+  padding: 0;
 }
 
 li {
   position: relative;
-  left: -10px;
   font-size: 4rem;
+  list-style-position: inside;
+  left: -14px;
 }
 
 span {
@@ -30,7 +32,7 @@ span {
 }
 
 .list-section {
-  display: flex;
+  display: inline-flex;
   align-items: flex-start;
   border-bottom: solid rgba(243, 244, 224) 3px;
 }

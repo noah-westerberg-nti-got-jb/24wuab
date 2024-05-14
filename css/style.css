@@ -43,41 +43,29 @@ header {
   top: 0px;
 
   z-index: 10;
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
 nav {
   height: 100%;
-
   display: grid;
-
-  grid-template-columns: auto 120px;
+  grid-template-columns: auto auto auto;
 }
 
 h1 {
   text-align: center;
   font-size: 1.2rem;
+  margin-right: 10%;
 }
 
 nav :hover {
   text-decoration: none;
 }
 
-nav a {
-  width: 100%;
-  height: 100%;
-}
-
 a {
   text-decoration: none;
   color: inherit;
-}
-
-#nav-section-1 {
-  display: grid;
-
-  grid-template-columns: 70px 70px auto;
-
-  align-items: center;
 }
 
 .nav-item {
@@ -91,8 +79,11 @@ a {
 }
 
 .nav-item:hover {
-  color: rgb(12, 11, 31);
   background-color: rgba(243, 244, 224);
+}
+
+.nav-item:hover span {
+  color: rgb(12, 11, 31);
 }
 
 main {
@@ -132,8 +123,15 @@ img:hover {
   background: black;
 }
 
+#header-title {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header-button {
-  display: inline;
+  display: block;
 
   margin: 20px;
 
@@ -147,6 +145,8 @@ img:hover {
   width: 25px;
 
   cursor: pointer;
+
+  top: 100px;
 }
 
 body.hide-header {
@@ -156,6 +156,10 @@ body.hide-header {
 
 header.hide-header {
   position: relative;
+}
+
+header.hide-header .header-button {
+  top: 0;
 }
 
 span.material-symbols-outlined {
@@ -171,12 +175,13 @@ span.material-symbols-outlined:hover {
   h1 {
     font-size: 1.5rem;
   }
-
-  nav {
-    grid-template-columns: auto 160px;
+  header {
+    grid-template-columns: 50% 50%;
   }
+}
 
-  #nav-section-1 {
-    grid-template-columns: 120px 120px auto;
+@media screen and (min-width: 991px) {
+  header {
+    grid-template-columns: 30% 70%;
   }
 }

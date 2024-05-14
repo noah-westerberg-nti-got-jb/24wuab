@@ -15,24 +15,13 @@ main section {
 
 main section {
   padding: 0 2%;
+  margin: 10px;
 }
 
 main section section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-main section section article {
-  display: block;
-}
-
-section {
-  margin: 10px;
-}
-
-nav section {
-  margin: 0;
 }
 
 h2 {

@@ -102,11 +102,12 @@ img {
 .showcase-item-text {
   top: 50%;
   margin: 0px 15%;
-  font-size: 0.4rem;
+  font-size: 0.35rem;
 }
 
 .showcase-item-text-container h3 {
   font-size: 0.65rem;
+  margin-bottom: 5px;
 }
 
 .image-first .showcase-item-text-container {
@@ -138,7 +139,7 @@ img {
   }
 
   .showcase-item-text {
-    font-size: 0.55rem;
+    font-size: 0.5rem;
   }
 
   .showcase-item-text-container h3 {
@@ -165,7 +166,7 @@ img {
   }
 
   .showcase-item-text {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   .showcase-item-text-container h3 {
@@ -193,7 +194,7 @@ img {
   }
 
   .showcase-item-text {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
   }
 
   .showcase-item-text-container h3 {

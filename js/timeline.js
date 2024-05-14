@@ -39,13 +39,12 @@ fetch('js/timelinedata.json').then((response) => response.json()).then((json) =>
         }
         previousDateTime = dateTime;
         
-        let listElement = listParrent.appendChild(document.createElement("div"));
+        let listElement = listParrent.appendChild(document.createElement("li"));
         if (project.link != false)
         {
             listElement = listElement.appendChild(document.createElement("a"));
             listElement.href = project.link;
         }
-        listElement = listElement.appendChild(document.createElement("li"));
         listElement = listElement.appendChild(document.createElement("section"));
         listElement.classList.add("list-section")
 

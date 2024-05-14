@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
 * {
   color: rgb(243, 244, 224);
 
   transition-duration: 0.2s;
   transition-property: all;
 
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -12,8 +14,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Times New Roman", Times, serif;
+h6,
+#directions section section article span {
+  font-family: "Roboto Slab", serif;
 }
 
 body {
@@ -49,7 +52,7 @@ footer nav {
   display: flex;
   justify-content: space-around;
 
-  font-size: 10px;
+  font-size: 12px;
 
   width: 100%;
   max-width: 150px;
@@ -59,15 +62,15 @@ footer nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-size: 12px;
-  height: 60px;
+  font-size: 14px;
+  height: 70px;
   position: relative;
   left: -20%;
 }
 
 #website-info {
   text-align: center;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 header {

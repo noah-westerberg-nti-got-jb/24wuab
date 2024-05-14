@@ -4,23 +4,18 @@ main {
   flex-direction: column;
   align-items: center;
 
-  padding: 50px;
+  padding: 50px 0;
 }
 
 #projects {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-
-  margin: 5px 10vh;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto;
 }
 
 .project-container {
   display: flex;
   flex-direction: column;
-
-  width: 30vw;
-  height: 48vw;
 
   background: rgb(12, 11, 31);
 
@@ -57,47 +52,27 @@ main {
   background: rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (max-width: 400px) {
-  p {
-    font-size: 0.3rem;
-  }
+.project-container {
+  width: 150px;
+  height: 241px;
+}
 
-  h2 {
-    font-size: 0.5rem;
+p {
+  font-size: 0.5rem;
+}
+
+h2 {
+  font-size: 0.7rem;
+}
+
+@media screen and (min-width: 450px) {
+  .project-container {
+    width: 200px;
+    height: 322px;
   }
 }
 
-@media screen and (max-width: 500px) and (min-width: 400px) {
-  p {
-    font-size: 0.5rem;
-  }
-
-  h2 {
-    font-size: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 600px) and (min-width: 500px) {
-  p {
-    font-size: 0.7rem;
-  }
-
-  h2 {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 600px) {
-  p {
-    font-size: 1rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   p {
     font-size: 1rem;
   }
@@ -105,12 +80,10 @@ main {
   h2 {
     font-size: 1.5rem;
   }
-}
 
-@media screen and (max-width: 991px) {
   .project-container {
-    width: 45vw;
-    height: 72vw;
+    width: 300px;
+    height: 483px;
   }
 }
 
@@ -121,5 +94,10 @@ main {
 
   h2 {
     font-size: 2rem;
+  }
+
+  .project-container {
+    width: 450px;
+    height: 725px;
   }
 }

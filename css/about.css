@@ -10,31 +10,34 @@ section {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 0;
+  border-top: solid rgba(243, 244, 224) 2px;
 }
 
 ul {
-  border-left: solid rgba(243, 244, 224) 10px;
+  border-left: solid rgba(243, 244, 224) 5px;
   padding: 0;
 }
 
 li {
   position: relative;
-  font-size: 4rem;
+  font-size: 2rem;
   list-style-position: inside;
-  left: -14px;
+  left: -7px;
+}
+
+#timeline-wrapper {
+  padding-left: 30px;
 }
 
 #timeline span {
-  font-size: 1rem;
-  border-bottom: solid rgba(243, 244, 224) 2px;
+  font-size: 0.5rem;
 }
 
 .list-section {
   display: inline-flex;
   align-items: flex-start;
-  border-bottom: solid rgba(243, 244, 224) 3px;
 }
 
 #timeline {
@@ -52,13 +55,30 @@ li {
   font-size: 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   #about {
     padding: 0px 21vw 50px;
   }
 
   #about p {
     font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    border-left: solid rgba(243, 244, 224) 7.5px;
+  }
+
+  li {
+    font-size: 3rem;
+    left: -10.5px;
+  }
+
+  #timeline span {
+    font-size: 0.75rem;
   }
 }
 
@@ -70,10 +90,21 @@ li {
   #about p {
     font-size: 1.5rem;
   }
-}
 
-@media screen and (min-width: 1024px) {
-  #about p {
-    font-size: 1.5rem;
+  h3 {
+    font-size: 2rem;
+  }
+
+  ul {
+    border-left: solid rgba(243, 244, 224) 10px;
+  }
+
+  li {
+    font-size: 4rem;
+    left: -14px;
+  }
+
+  #timeline span {
+    font-size: 1rem;
   }
 }

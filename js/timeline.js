@@ -1,4 +1,4 @@
-const minDistancePixels = 20;
+const minDistancePixels = 60;
 
 // https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/
 fetch('js/timelinedata.json').then((response) => response.json()).then((json) => {
